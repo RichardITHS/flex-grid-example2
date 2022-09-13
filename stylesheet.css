@@ -1,0 +1,47 @@
+
+/*Flex nav*/
+nav ul{
+    display:flex;
+    margin:0;
+    padding:0;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+/*Flex column example*/
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+  
+    margin: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 50px;
+}
+
+.column{
+    display: flex;
+
+    flex-basis: 100%;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.column1{
+    background-color: blue;
+}
+
+.column2{
+    background-color: green;
+}
